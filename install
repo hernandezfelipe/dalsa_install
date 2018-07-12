@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Extracting and putting on current folder and running installer
+sudo tar -xvzf gige-v-framework_20200132tar.gz
+sudo mv ./GigE-V-Framework_2.02.0.0132/GigE-V-Framework_x86_2.02.0.0132.tar.gz .
+sudo tar -xvzf GigE-V-Framework_x86_2.02.0.0132.tar.gz 
+sudo rm -rf GigE-V-Framework_x86_2.02.0.0132.tar.gz GigE-V-Framework_2.02.0.0132
+sudo cp makefile ./DALSA/GigeV/examples/genicam_cpp_demo/makefile
+cd ./DALSA
+sudo ./corinstall
+#

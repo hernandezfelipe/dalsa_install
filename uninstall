@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./DALSA/./corinstall uninstall
+. /home/mvisia/Maq-movel2/DALSA/GigeV/GenICam_v3_0_0_linux_pkg/uninstall.sh 
+#read -p "O computador precisa ser reiniciado, pressione qualquer tecla para continuar... " -n1 
+#sudo reboot
